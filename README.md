@@ -34,3 +34,4 @@
 - git checkout <branch-name>  (move to the selected branch)
 - git branch -d <branch-name> (delete the selected branch)
 - git merge <branch-name> (to merge with other branch file, you need to enter the master/main branch before merging)
+- git push origin --delete <branch-name>    (delete branch on the repo)
