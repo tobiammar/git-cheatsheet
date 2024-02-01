@@ -22,3 +22,8 @@ git log --oneline (simplify the repo's log)
 git checkout <commit-id>    (move the file to selected version/timeline)
 git revert <commit-id>      (revert the file to selected version/timeline)
 git reset --hard <commit-id>    (reset the file to selected version/timeline)
+
+# create .gitignore.txt file to untrack certain file/ auto generated file
+touch .gitignore
+git rm -r --cached . (remove the cached if the tracking still working)
+(Messages: put the name of the files or folder into the text file as an example, "<filename>" or "<foldername>/*" the asterick represent to ignore every file in the folder)
